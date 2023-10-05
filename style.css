@@ -164,6 +164,8 @@ div.basic{
 }
 
 
+
+
 /* Contacts page CSS*/
 .column {
  height: 100%;
@@ -173,8 +175,7 @@ div.basic{
   width: 40%;
   background-color: #dae3e5;
   object-fit: fill;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  height: 90%;
 }
 .leftRow img{
   width: 80%;
@@ -185,16 +186,16 @@ div.basic{
   float: right;
 }
 .rightRow {
-  padding-top: 3%;
-  padding-bottom: 2%;
+  padding-top: 8.5%;
+  padding-bottom: 9%;
   padding-right: 10%;
   float: right;
   width: 50%;
-  background-color: #dae3e5;
+  background-color: #00072B;
 }
+
 .contactBox {
   background-color: #00072B;
-  height: 700px;
 }
 .contactBox a{
   color: #f0f600;
