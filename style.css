@@ -181,27 +181,27 @@ table, tr, td, th.basic {
   background-size: cover;
 }
 .scrollPic-1 {
-  background-image: url("images/noonCity.jpg");
+  background-image: url("Images/noonCity.jpg");
   min-height: 80%;
 }
 .scrollPic-2 {
-  background-image: url("images/chicagoCityMorning.jpg");
+  background-image: url("Images/chicagoCityMorning.jpg");
   min-height: 400px;
 }
 .scrollPic-3 {
-  background-image: url("images/bay.jpg");
+  background-image: url("Images/bay.jpg");
   min-height: 400px;
 }
 .scrollPic-4 {
-  background-image: url("images/navypier.jpg");
+  background-image: url("Images/bay.jpg");
   min-height: 400px;
 }
 .scrollPic-5 {
-  background-image: url("images/chicagoCityNight.jpg");
+  background-image: url("Images/chicagoCityNight.jpg");
   min-height: 400px;
 }
 .scrollPic-6 {
-  background-image: url("images/track.jpg");
+  background-image: url("Images/track.jpg");
   min-height: 94%;
   opacity: .90;
 }
