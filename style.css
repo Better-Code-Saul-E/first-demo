@@ -12,53 +12,80 @@ ul.basic {
     list-style-type: square;
 }
 body.basic {
-    background-color: #dae3e5;
+    background-color: #00072B;
 }
 p.basic {
-  color: #f0f600;
-  font-family: "lato", sans-serif;
+  color: #141316;
+  font-family: sans-serif, Helvetica ;
   text-align: center;
+  
 }
 h3.basic {
-  font-family: sans-serif;
+  font-family: sans-serif, Helvetica, ;
   letter-spacing: 6px;
   text-align: center;
-  color: #f0f600;
+  color: #141316;
+}
+h4.basic {
+  font-family: sans-serif, Helvetica, ;
+  letter-spacing: 6px;
+  text-align: center;
+  color: #141316;
 }
 h2.basic{
   font-size: 28px;
   letter-spacing: 8px;
   font-family: sans-serif;
   text-align: center;
-  color: #fb3640;
+  color: #d76c40;
 }
 div.basic{
-  background-color:#00072B;
-  padding: 25px 80px;
+  background-color:#1f1517;
+  padding: 30px 80px;
 }
 
+div.borderBox {
+  background-color: #f0ebe7;
+  border: #d76c40;
+  border-style: groove;
+  border-width: 8px;
+}
+table, tr, td, th.basic {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  color: #1f1517;
+  background-color: #f0ebe7;
+  border: #d76c40;
+  border-style: groove;
+  border-width: 2px;
+}
 
 
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #00072B;
+    background-color: #1f1517;
     overflow: hidden;
 }
-/* Style the links inside the navigation bar */
+/* Style the links inside the navigation bar , Switched the padding to margin */
 .topnav a {
   float: left;
-  color: #fb3640;
+  color: #1f1517;
   text-align: center;
-  padding: 8px 5px;
+  margin: 8px 5px;
   text-decoration: none;
   font-size: 17px;
   font-family: sans-serif;
+  
 }
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #f0f600;
-  color: #fb3640;
+  border: #f0ebe7;
+  border-style: groove;
+  border-width: 3px;
+  background-color: #141316;
+  color: #d76c40;
 }
 /* Add a color to the active/current link */
 .topnav a.active {
@@ -68,8 +95,13 @@ div.basic{
 /* Right-aligned section inside the top navigation */
 .topnav-right a{
   float: right;
-  padding: 20px 16px;
+  margin: 12px 10px;
+  padding: 8px 8px;
   font-family: sans-serif;
+  background-color: #f0ebe7;
+  border: #d76c40;
+  border-style: groove;
+  border-width: 3px;
 }
 
 
@@ -83,17 +115,23 @@ div.basic{
 /* Dropdown button */
 .dropdown .dropbtn {
   font-size: 17px;
-  border: none;
-  outline: none;
-  color: #fb3640;
-  padding: 20px 16px;
+  margin: 12px 10px;
+  padding: 8px 8px; 
   background-color: inherit;
   font-family: sans-serif;
+  color: #141316;
+  background-color: #f0ebe7;
+  border: #d76c40;
+  border-style: groove;
+  border-width: 3px;
+  
 }
-/* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #f0f600;
-  color: #fb3640;
+  border: #f0ebe7;
+  border-style: groove;
+  border-width: 3px;
+  background-color: #141316;
+  color: #d76c40;
 }
 /* Dropdown content (hidden by default) */
 .dropdown-content {
@@ -107,7 +145,7 @@ div.basic{
 /* Links inside the dropdown */
 .dropdown-content a {
   float: none;
-  color: #dae3e5;
+  color: #1f1517;
   padding: 8px 16px;
   text-decoration: none;
   display: block;
@@ -115,8 +153,8 @@ div.basic{
 }
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #fb3640;
-  color: #f6f8ff;
+  background-color: #141316;
+  color: #d76c40;
 }
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -134,7 +172,7 @@ div.basic{
   width: 100%;
   text-align: center;
 }
-.scrollPic-1, .scrollPic-2, .scrollPic-3, .scrollPic-4, .scrollPic-5 {
+.scrollPic-1, .scrollPic-2, .scrollPic-3, .scrollPic-4, .scrollPic-5, .scrollPic-6 {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -162,50 +200,40 @@ div.basic{
   background-image: url("./Images/chicagoCityNight.jpg");
   min-height: 400px;
 }
-
-
+.scrollPic-6 {
+  background-image: url("./Images/track.jpg");
+  min-height: 94%;
+  opacity: .90;
+}
 
 
 /* Contacts page CSS*/
 .column {
- height: 100%;
+ height: 60%;
+ margin: 8% 10%;
 }
-.leftRow {
-  float: left;
-  width: 40%;
-  background-color: #dae3e5;
+.column-left {
+float: left;
+width: 30%;
+border: #1f1517;
+border-style: groove;
+border-width: 3px;
+}
+img.column-left {
+  float: right;
+  height: 550px;
+  width: auto;
   object-fit: fill;
-  height: 90%;
-}
-.leftRow img{
-  width: 80%;
-  height: auto;
-  border-style: outset;
-  border-width: 6px;
-  border-color: #00072B;
-  float: right;
-}
-.rightRow {
-  padding-top: 8.5%;
-  padding-bottom: 9%;
-  padding-right: 10%;
-  float: right;
-  width: 50%;
-  background-color: #00072B;
 }
 
-.contactBox {
-  background-color: #00072B;
+.column-right {
+float: left;
+height: 545px;
+width: 60%;
+background-color: #f0ebe7;
+border: #d76c40;
+border-style: groove;
+border-width: 8px;
+
 }
-.contactBox a{
-  color: #f0f600;
-}
-
-
-
-
-
-
-
-
 
