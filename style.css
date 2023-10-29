@@ -18,7 +18,6 @@ p.basic {
   color: #141316;
   font-family: sans-serif, Helvetica ;
   text-align: center;
-  
 }
 h3.basic {
   font-family: sans-serif, Helvetica, ;
@@ -30,6 +29,12 @@ h4.basic {
   font-family: sans-serif, Helvetica, ;
   letter-spacing: 6px;
   text-align: center;
+  color: #141316;
+}
+h5.basic {
+  font-family: sans-serif, Helvetica, ;
+  letter-spacing: 6px;
+  text-align: left;
   color: #141316;
 }
 h2.basic{
@@ -172,7 +177,7 @@ table, tr, td, th.basic {
   width: 100%;
   text-align: center;
 }
-.scrollPic-1, .scrollPic-2, .scrollPic-3, .scrollPic-4, .scrollPic-5, .scrollPic-6 {
+.scrollPic-1, .scrollPic-2, .scrollPic-3, .scrollPic-4, .scrollPic-5, .scrollPic-6, .scrollPic-7 {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -181,30 +186,37 @@ table, tr, td, th.basic {
   background-size: cover;
 }
 .scrollPic-1 {
-  background-image: url("Images/noonCity.jpg");
+  background-image: url("./Images/noonCity.jpg");
   min-height: 80%;
 }
 .scrollPic-2 {
-  background-image: url("Images/chicagoCityMorning.jpg");
+  background-image: url("./Images/chicagoCityMorning.jpg");
   min-height: 400px;
 }
 .scrollPic-3 {
-  background-image: url("Images/bay.jpg");
+  background-image: url("./Images/bay.jpg");
   min-height: 400px;
 }
 .scrollPic-4 {
-  background-image: url("Images/bay.jpg");
+  background-image: url("./Images/navypier.jpg");
   min-height: 400px;
 }
 .scrollPic-5 {
-  background-image: url("Images/chicagoCityNight.jpg");
+  background-image: url("./Images/chicagoCityNight.jpg");
   min-height: 400px;
 }
 .scrollPic-6 {
-  background-image: url("Images/track.jpg");
+  background-image: url("./Images/track.jpg");
   min-height: 94%;
   opacity: .90;
 }
+.scrollPic-7 {
+  background-image: url("Images/sunsettting.jpg");
+  min-height: 95%;
+  opacity: 90;
+}
+
+
 
 
 /* Contacts page CSS*/
@@ -225,7 +237,6 @@ img.column-left {
   width: auto;
   object-fit: fill;
 }
-
 .column-right {
 float: left;
 height: 545px;
@@ -234,6 +245,99 @@ background-color: #f0ebe7;
 border: #d76c40;
 border-style: groove;
 border-width: 8px;
-
 }
 
+
+
+
+/* survey css*/
+.surveyBox {
+  margin: auto;
+  width: 60%;
+  height: 680px;
+  background-color:#1f1517;
+  padding: 20px 20px;
+}
+.survey {
+margin: auto;
+width: 80%;
+}
+.question {
+  margin-bottom: 10px;
+}
+label.survey {
+  font-family: sans-serif, Helvetica, ;
+  letter-spacing: 4px;
+  text-align: left;
+  color: #141316;
+}
+.icon {
+  height: 25px;
+  width: 25px;
+  float: left;
+  border: #d76c40;
+  border-style: groove;
+  border-width: 2px;
+}
+.input  {
+ float: left;
+ height: 23px;
+ border: #d76c40;
+ border-style: groove;
+ border-width: 2px; 
+ width: 95%;
+}
+textarea.input {
+  float: left;
+  height: 23px;
+  border: #d76c40;
+  border-style: groove;
+  border-width: 2px; 
+  width: 90%;
+}
+select.input {
+  float: left;
+  height: 29px;
+  border: #d76c40;
+  border-style: groove;
+  border-width: 2px; 
+  width: 96%;
+}
+.bday {
+  float: left;
+  height: 25px;
+  border: #d76c40;
+  border-style: groove;
+  border-width: 2px; 
+  width: 95.5%;
+}
+.submitBtn {
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #141316;
+  background-color: #f0ebe7;
+  border: #d76c40;
+  border-style: groove;
+  border-width: 3px;
+}
+
+/* Confimation page*/
+.homeBtn {
+  text-align: center;
+}
+.homeBtn a {
+color: #d76c40;
+font-size: 17px;
+font-family: sans-serif;
+background-color: #00072B;
+border-color: #f0ebe7;
+border-style: groove;
+border-width: 3px;
+text-decoration: none;
+}
+.homeBtn a:hover {
+border-color: #d76c40;
+border-style: groove;
+background-color: #f0ebe7;
+color: #00072B;
+}
