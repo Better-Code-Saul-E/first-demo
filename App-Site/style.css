@@ -1,0 +1,271 @@
+html body {
+    height: 100%;
+    margin: 0;
+    display: block;
+}
+.Contain {
+    width: 100%;
+    display: block;
+}
+.Header {
+    padding-top: 15px;
+    width: 100%;
+}
+.HeaderGrid {
+    display: grid;
+    max-width: 1170px;
+    grid-template-columns: 180px auto auto;
+    margin: auto;
+}
+.HeaderLogo {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.HeaderSecondary {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+.HeaderSecondaryLeft {
+    display: flex;
+    align-items: center;    
+}
+.ChangeLanguage {
+    font-size: 14px;
+    line-height: 24px;
+    background-color: transparent;
+    border: none;
+    color: #292929;
+}
+.HeaderSecondaryNavigationItemLink {
+    line-height: 26px;
+    font-size: 15px;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    color: #292929;
+    text-decoration: none;
+}
+.ChangeLocation {
+    display: block;
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    color: #006bae;
+}
+.HeaderSecondaryRight {
+    display: flex;
+    align-items: center;
+}
+.HeaderSecondaryRightButton {
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+}
+.OrderNow {
+    background-color: #ffbc0d;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #292929;
+}
+.HeaderPrimary {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    margin-top: 30px;
+}
+.HeaderLinks {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+.HeaderLinkSpacing {
+    padding-right: 30px;
+}
+.HeaderPrimaryNavigationItemLink {
+    font-size: 16px;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    color: #292929;
+    text-decoration: none;
+}
+.HeaderPrimaryNavigationButton {
+    font-size: 16px;
+    background-color: transparent;
+    padding-bottom: 20px;
+    border: none;
+}
+.Main {
+    float: left;
+    width: 100%;
+    padding-top: 120px;
+}
+.MainContent {
+    margin: auto;
+    max-width: 1170px;
+}
+.MainContentRow {
+    display: flex;
+    flex-flow: row;
+}
+.RowImg {
+    width: 65%;
+    flex: 0 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.RowImgSize {
+    max-width: 750px;
+    max-height: 335px;
+}
+.RowContent {
+    width: 35%;
+    flex: 0 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.RowContentTitle {
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial, Noto sans,sans-serif;
+    font-size: 36px;
+}
+.RowContentBody {
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial, Noto sans,sans-serif;
+    line-height: 1.4;
+    font-size: 16px;
+}
+.RowContentButton {
+    background-color: #ffbc0d;
+    padding: 16px 22px;
+    text-align: center;
+    color: #292929;
+    text-decoration: none;
+}
+.Footer {
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial, Noto sans,sans-serif;
+    width: 100%;
+}
+.FooterContainer {
+    max-width: 1130px;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.FooterNavigation {
+    max-width: 1130px;
+    margin-bottom: 30px;
+}
+.FooterNavigationSections {
+    list-style: none;
+    padding: 0;
+}
+.FooterNavigationSection {
+    flex: 0 0 20%;
+}
+ul.FooterNavigationSections {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+li.FooterNavigationSection {
+    display: list-item;
+    font-size: 16px;
+}
+h2.FooterNavigationSection {
+    display: block;
+    line-height: 26px;
+    font-size: 16px;
+    margin-bottom: 22px;
+}
+.List {
+    color: #292929;
+    list-style: none;
+    padding: 0;
+    line-height: 23px;
+}
+ul.List {
+    font-size: 16px;
+}
+li.List {
+    margin-bottom: 6px;
+    display: list-item;
+    list-style: none;
+    font-size: 16px;
+}
+a.List {
+    text-decoration: none;
+    color: #292929;
+    font-size: 16px;
+}
+.SocialMediaAndLegalInfo {
+    max-width: 1130px;
+}
+.Promotion {
+    padding-bottom: 50px;
+    display: flex;
+}
+.Socials {
+    flex: 0 1 66%;
+    justify-content: flex-start;
+    display: flex;
+    max-height: 60px;
+}
+.SocialsImageIcon {
+    max-height: 40px;
+    max-width: 30px;
+    box-sizing: border-box;
+    margin-right: 22px;
+}
+a.SocialsImageIcon {
+    background-color: transparent;
+    text-decoration: none;
+}
+.Apps {
+    display: flex;
+    max-height: 40px;
+    flex: 0 0 33%;
+    justify-content: flex-end;
+}
+.AppsImageIcon {
+    max-height: 40px;
+    max-width: 155px;
+}
+.Separator {
+    max-width: 1130px;
+    margin-bottom: 50px;
+}
+hr.Separator {
+    color: #292929;
+}
+.Legal {
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 1130px;
+    max-height: 90px;
+    display: flex;
+}
+.LegalLinks {
+    flex: 0 0 67%;
+}
+ul.LegalLinksList {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+li.LegalLinksListItem {
+    margin-right: 45px;
+    margin-bottom: 20px;
+}
+a.LegalLinksListItem {
+    text-decoration: none;
+    color: #292929;
+}
+.CopyRight {
+    display: flex;
+    line-height: 16px;
+    flex: 0 0 33%;
+    justify-content: space-around;
+}
+.CopyRightText {
+    text-align: right;
+}
