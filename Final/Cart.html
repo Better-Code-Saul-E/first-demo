@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport">
+<link rel="stylesheet" href="Style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+<header>
+<div class="CenterUserInformation">
+    <div class="UserInformation">
+    <div class="Logo">
+        <a href="Index.html"><img class="Logo" src="Assets/RL_Global_EA_Logo.png"></a>
+    </div>
+    <div class="Searchbar">
+        <form action="">            
+            <input type="text" placeholder="Search.. Ex: American Candy" class="Searchbar Search">
+            <button type="submit" class="SearchButton"><img class="SearchIcon" src="Assets/magnifying-glass.png"></button>
+        </form>
+    </div>
+    <div class="Account">
+        <a href="Survey.html"><img class="AccountIcons" src="Assets/Survey.png" alt="Survey"></a>
+        <a href="Cart.html"><img class="AccountIcons" src="Assets/Cart.png" alt="Shopping Cart"></a>
+        <a href="Account.html"><img class="AccountIcons" src="Assets/Account.png" alt="Account Information"></a>
+    </div>
+    </div>
+</div>
+
+<hr>
+
+</header>
+
+<main>
+<div class="Checkout">
+    <div class="CheckoutForm">
+        <form action="" class="ResponsiveForm">
+            <h1>Billing Information</h1>
+        <div class="Form">
+        <label for="FirstName"><i class="fa fa-user"></i><b>First Name</b></label>
+        <input type="text" placeholder="John" name="FirstName" id="FirstName" required>
+
+        <label for="LastName"><i class="fa fa-user"></i><b>LastName</b></label>
+        <input type="text" placeholder="Doe" name="FirstName" id="FirstName" required>
+
+        <label for="Email"><i class="fa fa-envelope"></i><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="Email" id="Email" required>
+
+        <label for="State"><i class="fa fa-institution"></i><b>State</b></label>
+        <input type="text" placeholder="Illinois" name="State" id="State" required>
+
+        <label for="City"><i class="fa fa-building"></i><b>City</b></label>
+        <input type="text" placeholder="Chicago" name="City" id="City" required>
+
+        <label for="Address"><i class="fa fa-address-card-o"></i><b>Address</b></label>
+        <input type="text" placeholder="2503 W 16th Street" name="Address" id="Address" required>
+
+        <label for="Zip Code"><i class="fa fa-address-book"></i><b>Zip Code</b></label>
+        <input type="text" placeholder="50295" name="ZipCode" id="ZipCode" required>
+        </div>
+
+            <h1>Payment</h1>
+        <div class="Form" > 
+        <label style="font-size: 18px;"><b>Accepted Cards</b></label>
+        <i class="fa fa-cc-amex" style="color:gold;"></i>
+        <i class="fa fa-cc-diners-club" style="color:silver;"></i>
+        <i class="fa fa-cc-discover" style="color:red;"></i>
+        <i class="fa fa-cc-jcb" style="color:blue;"></i>
+        <i class="fa fa-cc-mastercard" style="color:orange;"></i>
+        <i class="fa fa-cc-paypal" style="color:lightblue;"></i>
+        <i class="fa fa-cc-stripe" style="color:grey;"></i>
+        <i class="fa fa-cc-visa" style="color:purple;"></i>
+        </div>
+
+        <div class="Form">
+        <label for="CName"><b>Name On Card</b></label>
+        <input type="text" placeholder="John M Doe" name="CName" id="CName" required>
+
+        <label for="CNumber"><b>Card Number</b></label>
+        <input type="text" placeholder="1111 2222-3333-4444" name="CName" id="CName" required>
+        
+        <label for="CMonth"><b>Expiration Month</b></label>
+        <input type="text" placeholder="EMonth" name="EMonth" id="Emonth" required>
+
+            <div class="FormHalf">
+                <label for="Eyear"><b>Expiration Year</b></label>
+                <input type="text" placeholder="Eyear" name="Eyear" id="Eyear" required>
+            </div>
+            <div class="FormHalf">
+                <label for="CVV"><b>CVV </b></label>
+                <input type="text" placeholder="CVV" name="CVV" id="CVV" required>
+            </div>
+            <br>
+            <input type="submit" value="Purchase" class="btn">
+        </div>
+        </form>
+    </div>
+    <div class="CheckoutCart">
+        <h2 style="text-align: center;">Review Cart</h2>
+        
+        <div class="CartContainer" >
+            <ul class="CartList" >
+              <li>J - Berry Ramune - 15$</li>
+              <li>A -  BDay Kitkat - 10$</li>
+              <li>A - Limited C Candy - 5$</li>
+            </ul>  
+        </div>
+
+        <h3 style="text-align: center;">Total : 30$</h3>
+    </div>
+</div>
+</main>
+
+<footer>
+  <div class="Footer">
+    <div>
+    <div style="display: flex; justify-content: space-between;">
+        <div class="FooterSection">
+            <h5>Shop By Country</h5>
+            <ul class="FSections">
+                <li>America</li>
+                <li>Japan</li>
+                <li>Mexico</li>
+                <li>South Korea</li>
+                <li>Australia</li>
+            </ul>
+        </div>
+        <div class="FooterSection">
+            <h5>Help Us</h5>
+            <ul class="FSections">
+                <li>Survey</li>
+                <li>News letter</li>
+                <li>Donate</li>
+            </ul>
+        </div>
+        <div class="FooterSection">
+            <h5>About Us</h5>
+            <ul class="FSections">
+                <li>Mission</li>
+                <li>Blog</li>
+                <li>Customer Reviews</li>
+                <li>Privacy Policy</li>
+                <li>Terms Of Use</li>
+            </ul>
+        </div>
+        </div>
+    </div>
+        <hr class="FooterHR">
+    <div>
+        <br>
+        <i class="fa fa-instagram" style="color: blue;"></i>
+        <i class="fa fa-facebook-official" style="color: blue;"></i>
+        <i class="fa fa-twitter" style="color: blue;"></i>
+        <i class="fa fa-linkedin-square" style="color: blue;"></i>
+        <h5> Copyright © 2023 GlobalMunch.com • All Rights Reserved.</h5>
+        <br>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
